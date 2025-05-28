@@ -13,7 +13,7 @@ const listItems = [
 export default function Hero() {
   return (
     <section className="max-w-[1280px] mx-auto flex flex-col xl:flex-row items-center justify-center gap-10 px-4 text-[#1b281d] [text-rendering:optimizeSpeed] box-border">
-      <div className="flex flex-col w-[60%] py-8">
+      <div className="flex flex-col w-full sm:w-[60%] py-8">
         <div className="flex items-center justify-center mb-5 self-center">
           <img
             src={Stars}
